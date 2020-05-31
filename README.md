@@ -27,11 +27,17 @@
     
     __See the opening screen__
     ```bash
-    http://localhost:8000
+    http://localhost:8000/admin/
     ```
     __Get all data & specific data by id:__
     ```bash
     GET /api/member-info
     curl -X GET -H 'Content-Type:application/json' http://localhost:8000/api/member-info
     ```
- 
+
+* To load data. You can use __Terminal__ command line:
+    
+    __See the opening screen__
+    ```bash
+    python manage.py load_data --path='/home/data/fullthrottle/TestJSON.json'
+    ```
