@@ -36,8 +36,8 @@
     ```
 
 * To load data. You can use __Terminal__ command line:
-    
-    __See the opening screen__
+   
+    __Use the appropriate file path__
     ```bash
-    python manage.py load_data --path='/home/data/fullthrottle/TestJSON.json'
+    python manage.py load_data --path='TestJSON.json'
     ```
