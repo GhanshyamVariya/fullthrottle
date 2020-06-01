@@ -32,6 +32,7 @@
     __Get all data & specific data by id:__
     ```bash
     GET /api/member-info
+    GET https://fullthrottleg.herokuapp.com/api/member-info
     curl -X GET -H 'Content-Type:application/json' http://localhost:8000/api/member-info
     ```
 
