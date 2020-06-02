@@ -1,6 +1,6 @@
 # Full Throttle
 
-* Clone this repo. Insert your database URI to __database.yaml__ file, then install all the packages needed. In this project I'm using __flask__, __flask_cors__, __flask_mysqldb__, __Flask-SQLAlchemy__ & __psycopg2__:
+* Clone this repo.:
     ```bash
     $ git clone https://github.com/GhanshyamVariya/fullthrottle.git
     $ cd fullthrottle
