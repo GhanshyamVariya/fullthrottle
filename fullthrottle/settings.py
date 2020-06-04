@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'fullthrottle.apps.member'
+    'fullthrottle.apps.member',
+    'fullthrottle.apps.login',
 ]
 
 MIDDLEWARE = [
