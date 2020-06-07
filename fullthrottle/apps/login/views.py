@@ -84,9 +84,6 @@ def logout(request):
             {'message': 'Logged off successfully'},
             status=status.HTTP_200_OK)
     except Exception as ex:
-        print("ex",
-
-              ex)
         return Response(
             status=status.HTTP_500_INTERNAL_SERVER_ERROR
         )
