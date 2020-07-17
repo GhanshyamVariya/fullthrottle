@@ -38,7 +38,6 @@ def register(request):
                 status=status.HTTP_400_BAD_REQUEST
             )
     except Exception as ex:
-        print("Error", ex)
         return Response(
             {'message': 'Please provide proper input'},
             status=status.HTTP_500_INTERNAL_SERVER_ERROR

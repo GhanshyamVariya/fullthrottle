@@ -20,7 +20,7 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('fullthrottle.apps.member.urls'), name='member'),
-    path('api/', include('fullthrottle.apps.login.urls'), name='member')
+    path('api/', include('fullthrottle.apps.login.urls'), name='login')
 ]
 
 admin.site.site_header = "Full Throttle Admin"
